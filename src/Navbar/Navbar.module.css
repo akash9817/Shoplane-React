@@ -1,0 +1,92 @@
+.Navbar{
+    display:flex;
+    padding: 0 5%;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    height: 100px;
+    box-shadow: 2px 0px 4px 2px rgba(0,0,0,0.3);
+}
+
+.navLeft {
+    width: 35rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navLeft span{
+    color: #01d28e;
+}
+.logo1{
+    font-size: 2.5rem;
+    color: #01d28e;
+}
+.logo2{
+    font-weight: lighter;
+    font-size: 2.5rem;
+    color: #01d28e;
+}
+.navRight{
+    width: 130px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.small{
+    display: none;
+}
+.fontAwe{
+    font-size: 25px
+}
+.profilePic{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.cart{
+    position: relative;
+}
+
+.counter{
+    position: absolute;
+    background-color: #01d28e;
+    border-radius: 50%;
+    top: -18px;
+    right: -15px;
+    width: 15px;
+    padding: 5px;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+}
+
+@media screen and (max-width: 600px){
+    .Navbar{
+        flex-direction: column;
+        padding:10px;
+    }
+    .navLeft{
+        display:block;
+        text-align: center;
+        width:100%
+    }
+    .links{
+        display: none
+    }
+    .navRight{
+        width:100%;
+        justify-content: space-between
+    }
+    .fontAwe{
+        font-size: 25px;
+    }
+    .small{
+        display: block
+    }
+    .profilePic{
+        width:35px;
+        height: 35px;
+        border-radius: 50%
+    }
+}  

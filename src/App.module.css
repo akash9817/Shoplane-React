@@ -1,0 +1,27 @@
+/* body{
+    text-decoration: none;
+} */
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+.App{
+    position: relative;
+    min-height:100vh
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width:100%;
+    background: #504658;
+    text-align: center;
+    height: 4.5rem;
+    color:white
+}
